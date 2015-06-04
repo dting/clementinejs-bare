@@ -17,7 +17,7 @@ app.set('views', './app/views');
 
 // Static routes
 app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
-	app.use('/public', express.static(process.cwd() + '/public'));
+app.use('/public', express.static(process.cwd() + '/public'));
 
 // Routes
 routes(app);
