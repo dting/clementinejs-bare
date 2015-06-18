@@ -1,4 +1,6 @@
-### Beginner Boilerplate
+### Bare Boilerplate
+
+[Clementine.js Standard Repo](https://github.com/johnstonbl01/clementinejs) | [Clementine.js Bare Repo](https://github.com/johnstonbl01/clementinejs-bare) | [Clementine.js Beginner Repo](https://github.com/johnstonbl01/clementinejs-beginner)
 
 #### Overview
 
