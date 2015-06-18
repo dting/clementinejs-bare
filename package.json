@@ -1,11 +1,26 @@
 {
   "name": "clementinejs-bare",
   "version": "1.0.1",
-  "description": "A light-weight MEAN stack boilerplate.",
+  "description": "A bare bones MEAN stack boilerplate.",
   "main": "server.js",
   "scripts": {
     "start": "gulp"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonbl01/clementinejs-bare"
+  },
+  "homepage": "http://johnstonbl01.github.io/clementinejs-bare/",
+  "bugs": "https://github.com/johnstonbl01/clementinejs-bare/issues",
+  "keywords": [
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "Angular",
+    "Node",
+    "javascript",
+    "boilerplate"
+  ],
   "author": "Blake Johnston",
   "license": "MIT",
   "dependencies": {
