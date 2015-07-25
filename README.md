@@ -39,7 +39,7 @@ _Option 2_ - Install via LinuxBrew
 
 First, ensure [LinuxBrew](http://brew.sh/linuxbrew/) is installed. Then, enter the below into the Linux terminal:
 ```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+$ brew install node
 ```
 
 ##### MongoDB
@@ -51,13 +51,15 @@ MongoDB has great installation instructutions for MAC OSX, Windows and Linux. [S
 To install the boilerplate, first create a new directory for your project and cd into that directory from the terminal. Then type:
 
 ```bash
-$npm install clementinejs-bare
+$ npm install clementinejs-bare
 $ cd clementinejs-bare
+$ npm install
+$ bower install
 ```
 
 ##### Starting the App
 
-To start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server and connect to MongoDB.
+To start the app, make sure you're in the project directory and type `gulp` into the terminal. This will start the Node server and connect to MongoDB.
 
 You should the following messages within the terminal window:
 ```
