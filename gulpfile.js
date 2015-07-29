@@ -38,7 +38,7 @@ gulp.task('minify', function () {
 		.pipe(rename('main.min.css'))
 		.pipe(gulp.dest('./public/css'));
 
-	gulp.src(['./app/controllers/clickController.client.js'])
+	gulp.src(['./app/controllers/**/*.client.js'])
 		.pipe(uglify())
 		.pipe(rename('site.min.js'))
 		.pipe(gulp.dest('./public/scripts'));
